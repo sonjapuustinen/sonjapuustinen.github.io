@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+   
+    <title>Tallink</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  
+</head>
+<body>
+    <table border="1" align="center" width="800px" bgcolor="#A6E2FF">
+        <tr>
+            <td colspan="3">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="font-size:15px;color:#003399">Reittiliikenteen aikataulut ja hinnat laivalla</td>
+        </tr>
+        <tr>
+            <td rowspan="2" width="410px">
+                <img src="laiva.jpg" alt="Ship" width="410px" height="225px">
+            </td>
+            <td>
+                <table border="1" width="390px" >
+                    <tr> <td colspan="4" style="font-size:15px;color:white;background:#003399;">Aikataulu</td></tr>
+                    <th></th>
+                    <th>Helsinki-Tallinna</th>
+                    <th></th>
+                    <th>Tallinna-Helsinki</th>
+                        <tr>
+                            <td>Meloodia</td>
+                            <td>09.00 - 12.15</td>
+                            <td>Romantika</td>
+                            <td>12.30 - 15.45</td>
+                        </tr>
+                        <tr>
+                            <td>Romantika</td>
+                            <td>18.00 - 21.30</td>
+                            <td>Meloodia</td>
+                            <td>16.00 - 19.15</td>
+                        </tr>
+                        <tr>
+                            <td>Meloodia</td>
+                            <td>18.00 - 21.30</td>
+                            <td>Meloodia</td>
+                            <td>23.55 - 08.00</td>
+                        </tr>
+
+                        <tr> <td colspan="4" style="font-size:15px;color:white;background:#003399;">Reittihinnat</td></tr>
+                    <th></th>
+                    <th>ma - to</th>
+                    <th>pe - la</th>
+                    <th>su</th>
+                        <tr>
+                            <td>Meloodia 9.00</td>
+                            <td>17 / hlö</td>
+                            <td>20 / hlö</td>
+                            <td>20 / hlö</td>
+                        </tr>
+                        <tr>
+                            <td>Romantika 18.00</td>
+                            <td>17 / hlö</td>
+                            <td>20 / hlö</td>
+                            <td>20 / hlö</td>
+                        </tr>
+                        <tr>
+                            <td>Meloodia 20.15</td>
+                            <td>17 / hlö</td>
+                            <td>20 / hlö</td>
+                            <td>20 / hlö</td>
+                        </tr>
+                </table>
+    </table>
+
+
+</body>
+</html>
