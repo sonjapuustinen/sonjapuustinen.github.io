@@ -1,0 +1,92 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #fbf8cc
+    }
+
+    30% {
+        background-color: #ffcfd2
+    }
+
+    60% {
+        background-color: #cfbaf0
+    }
+
+    90% {
+        background-color: #90dbf4
+    }
+
+    100% {
+        background-color: #98f5e1
+    }
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+.container {
+  background: #d4d4d4b0;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* This adds the shadow */
+}
+/* Title Style */
+h2 {
+  text-align: center;
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+h3
+{
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/* Thank you message styles */
+.thank-you-message {
+  text-align: center;
+  color: #333333;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.details {
+  text-align: left;
+  font-size: 1em;
+  color: #555;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+.details strong {
+  font-weight: bold;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+a:hover {
+  background-color: #0056b3;
+}
+.button-space {
+  margin-right: 50px;
+}
