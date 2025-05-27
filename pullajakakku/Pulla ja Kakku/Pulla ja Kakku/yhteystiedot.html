@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>  
+  <title>Pulla ja Kakku</title>
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="tyyli.css">
+</head>
+
+<body>
+  <header class="header-section">
+    <h2>🍰 Tervetuloa Pullaan ja Kakkuun! 🍰</h2>
+    <p>Meiltä löydät herkullisia leivonnaisia ja erikoiskahveja!</p>
+  </header>    
+ 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Pulla ja Kakku</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Etusivu</a></li>
+      
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tuotteet
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="pulla.html">Pulla</a></li>
+          <li><a href="kahvi.html">Kahvi</a></li>
+          <li><a href="kakku.html">Kakku</a></li>
+        </ul>
+      </li>
+      <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+    </ul>
+  </div>
+  </nav>
+
+  <section class="container py-5">
+    <h3><b>Ota yhteyttä</b></h3><br>
+    <p><b>Osoite:</b> Pullankatu 42, Helsinki</p>
+    <p><b>Puhelin:</b> +358 122 334 556</p>
+    <p><b>Sähköposti:</b> info@pullajakakku.com</p>
+    <br>
+
+    <form action="lahetetty.php" method="POST" class="mt-4">
+      <div class="mb-3">
+        <label for="name" class="form-label">Nimi</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Syötä nimesi" tabindex="1" required>
+      </div>
+      <br>
+      <div class="mb-3">
+        <label for="email" class="form-label">Sähköposti</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Syötä sähkoposti" tabindex="2" required>
+      </div>
+      <br>
+      <div class="mb-3">
+        <label for="message" class="form-label">Viesti</label>
+        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Kirjoita tähän jotain tekstiä.." tabindex="3" required></textarea>
+        <br><br>
+      </div>
+      <button type="submit" class="btn btn-primary button-space" tabindex="4">Lähetä</button>
+      <button type="reset" class="btn btn-secondary" tabindex="5">Tyhjennä</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>🍰 &copy; 2025 Pulla ja Kakku. All rights reserved. 🍰</p>
+  </footer>
+</body>
+</html>

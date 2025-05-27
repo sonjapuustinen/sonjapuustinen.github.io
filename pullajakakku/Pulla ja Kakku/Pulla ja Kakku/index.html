@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>  
+  <title>Pulla ja Kakku</title>
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="tyyli.css">
+</head>
+
+<body>
+  <header class="header-section">
+    <h2>🍰 Tervetuloa Pullaan ja Kakkuun! 🍰</h2>
+    <p>Meiltä löydät herkullisia leivonnaisia ja erikoiskahveja!</p>
+  </header>
+    
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Pulla ja Kakku</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Etusivu</a></li>
+      
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tuotteet
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="pulla.html">Pulla</a></li>
+          <li><a href="kahvi.html">Kahvi</a></li>
+          <li><a href="kakku.html">Kakku</a></li>
+        </ul>
+      </li>
+
+      <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="container text-center py-5">
+  <h2>Tarjoamme:</h2>
+  <div class="row">
+    <div class="col-md-4">    
+      <img src="pulla.jpg" class="img-circle" alt="Pastries" style="width: 80%; height: auto;" onclick="toggleText('text1')" style="cursor: pointer;">
+      <h4>Herkullisia leivonnaisia</h4>
+      <p id="text1" style="display: none;">Tuoreet pullat ja leivonnaiset suoraan uunista!</p>
+    </div>
+    <div class="col-md-4">   
+      <img src="kahvi.jpg" class="img-circle" alt="Coffee" style="width: 80%; height: auto;" onclick="toggleText('text2')" style="cursor: pointer;">
+      <h4>Erikoiskahvit</h4>
+      <p id="text2" style="display: none;">Valikoimassamme on cappuccino, latte ja espresso!</p>
+    </div>
+    <div class="col-md-4">
+      <img src="kakku.jpg" class="img-circle" alt="Cakes" style="width: 80%; height: auto;" onclick="toggleText('text3')" style="cursor: pointer;">
+      <h4>Käsintehdyt kakut</h4>
+      <p id="text3" style="display: none;">Tilaa meiltä ainutlaatuisia ja herkullisia kakkuja juhliisi!</p>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+    <p>🍰 &copy; 2025 Pulla ja Kakku. All rights reserved. 🍰</p>
+</footer>
+    
+<script>
+  function toggleText(id) {
+    var text = document.getElementById(id);
+    text.style.display = text.style.display === "none" ? "block" : "none";
+  }
+</script>
+
+
+</body>
+</html>
