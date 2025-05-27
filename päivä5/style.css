@@ -1,0 +1,15 @@
+.body {
+    font-family:'Barlow';
+}
+
+
+
+.footer {
+  text-align: center;
+  margin-top: auto; 
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0; 
+  font-size: small;
+  width: 100%; 
+}
