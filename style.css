@@ -76,7 +76,7 @@
 
             /* the area below is for all links on your page
     EXCEPT for the navigation */
-            #container a {
+            .container a {
                 color: #ffffff;
                 font-weight: bold;
                 /* if you want to remove the underline
@@ -84,7 +84,7 @@
       text-decoration:none; */
             }
 
-            #header {
+            .header {
                 width: 100%;
                 background-color: #ffffff;
                 /* header color here! */
@@ -97,14 +97,14 @@
             }
 
             /* navigation section!! */
-            #navbar {
+            .navbar {
                 height: 40px;
                 background-color: #084294;
                 /* navbar color */
                 width: 100%;
             }
 
-            #navbar ul {
+            .navbar ul {
                 display: flex;
                 padding: 0;
                 margin: 0;
@@ -112,12 +112,12 @@
                 justify-content: space-evenly;
             }
 
-            #navbar li {
+            .navbar li {
                 padding-top: 10px;
             }
 
             /* navigation links*/
-            #navbar li a {
+            .navbar li a {
                 color: #ffffff;
                 /* navbar text color */
                 font-weight: 800;
@@ -126,12 +126,12 @@
             }
 
             /* navigation link when a link is hovered over */
-            #navbar li a:hover {
+            .navbar li a:hover {
                 color: #012269;
                 text-decoration: underline;
             }
 
-            #flex {
+            .flex {
                 display: flex;
             }
 
@@ -162,11 +162,11 @@
     tells the CSS the order in which to display them.
     left sidebar is 1, content is 2, and right sidebar is 3! */
 
-            */ #leftSidebar {
+            */ .leftSidebar {
                 order: 1;
             }
 
-            #rightSidebar {
+            .rightSidebar {
                 order: 3;
             }
 
@@ -204,7 +204,7 @@
 
             /* CSS for extras */
 
-            #topBar {
+            .topBar {
                 width: 100%;
                 height: 30px;
                 padding: 10px;
